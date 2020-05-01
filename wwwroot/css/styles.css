@@ -135,6 +135,7 @@ table {
   background-color: #f1f1f1;
   padding-top: 12px;
   padding-bottom: 24px;
+  min-height: 500px;
 }
 #items h2 {
   color: #333;
@@ -201,18 +202,6 @@ table {
     0px 0px 0px 18px rgba(0,0,0,0.2),
     6px 6px 8px 17px #555;
 }
-.recipe-info .row {
-  margin-top: 12px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  background-color: #f9f9f9;
-  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
-  -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
-  box-shadow: 0 1px 0 rgba(0,0,0,.15);
-}
-.recipe-info i {
-  color: #a44c9f;
-}
 .recipe-ingredients {
   background-color: #f9f9f9;
   margin-top: 24px;
@@ -237,7 +226,7 @@ table {
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .ingredients-list dd {
-  width: 85%;
+  width: 70%;
   float: left;
   margin: 0 0 8px;
   padding: 0 15px;

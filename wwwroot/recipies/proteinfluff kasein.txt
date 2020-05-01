@@ -1,9 +1,9 @@
 i:
-kasein-protein;25g
-vatten;100g
-frusna hallon;50g
-äggvita;10g
-xantangummi;2krm
+kasein-protein;25 g;88 kcal
+vatten;100 g
+frusna hallon;50 g;20 kcal
+äggvita;10 g;5 kcal
+xantangummi;2 krm
 
 s:
 Blanda vatten, hallon och äggvita i en skål				
@@ -13,8 +13,7 @@ Rör med ballongvisp tills det är svårt att få loss från vispen
 
 k:
 1 portion
-125kcal / portion
 Xantangummi är valfritt men det blir lite fastare				
 Blåbär fungerar också				
-Whey fungerar inte på det här sättet				
-
+Whey fungerar inte på det här sättet
+Lägg till valfritt kalorifritt sötningsmedel efter behov
