@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace irudd_cooking.Code
         public class Recipe
         {
             public string Name { get; set; }
+            public string MainImageUrl { get; set; }
             public List<string> Steps { get; set; }
             public List<string> Comments { get; set; }
             public List<Ingredient> Ingredients { get; set; }
@@ -68,7 +70,7 @@ namespace irudd_cooking.Code
                 {
                     continue;
                 }
-                else if (line == "i:" || line == "s:" || line == "k:" || line == "n:")
+                else if (line == "i:" || line == "s:" || line == "k:" || line == "n:" || line == "b:")
                 {
                     currentSection = line.Substring(0, 1);
                 }
@@ -100,6 +102,10 @@ namespace irudd_cooking.Code
                 else if (currentSection == "k")
                 {
                     r.Comments.Add(line);
+                }
+                else if (currentSection == "b")
+                {
+                    r.MainImageUrl = line;
                 }
             }
 
