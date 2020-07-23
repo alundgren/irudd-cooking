@@ -1,0 +1,13 @@
+i:
+Mald kanel;5 msk
+Mald ingefära;1 msk
+Mald muskotnöt;3 tsk
+Mald nejlika;2 tsk
+Mald kryddpeppar;2 tsk
+
+s:
+Blanda ihop alla ingredienser
+
+k:
+Gott för bakning med pumpapuré
+Typisk dosering 3g till 150g pumpapuré
