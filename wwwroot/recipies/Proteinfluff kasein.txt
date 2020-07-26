@@ -1,19 +1,21 @@
 i:
 kasein-protein;25 g;88 kcal
-vatten;100 g
+vatten;55 g
+krossad is;70 g
 frusna hallon;50 g;20 kcal
-äggvita;10 g;5 kcal
 xantangummi;2 krm
+sukrin;2 krm
 
 s:
-Blanda vatten, hallon och äggvita i en skål				
-Mixa med stavmixer				
-Blanda i proteinpulver och xantangummi				
-Rör med ballongvisp tills det är svårt att få loss från vispen				
+Lägg iskuber i en påse och krossa med mortel
+Stavmixa krossad is, vatten och frukt
+Blanda i proteinpulver, xantangummi och sukrin
+Rör med ballongvisp tills det är svårt att få loss från vispen
 
 k:
 1 portion
-Xantangummi är valfritt men det blir lite fastare				
-Blåbär fungerar också				
+Xantangummi är valfritt men det blir lite fastare	
+Salted caramel, chocolate milk eller vanilj är goda varianter på kasein
+Blåbär fungerar också
 Whey fungerar inte på det här sättet
-Lägg till valfritt kalorifritt sötningsmedel efter behov
+Har du bråttom så ta bara 130g vatten och skippa is. Det blir mer som fluff och mindre som glass
