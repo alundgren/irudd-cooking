@@ -1,0 +1,28 @@
+i:
+Bröd (pågen levain);127 g;299 kcal
+Äggvita;165 g;66 kcal
+Grekisk youghurt 0%;175 g;102 kcal
+Sylt (carbzone hallon);40 g;15 kcal
+Blåbär;125 g;66 kcal
+Sukrin+;0,5 tsk
+Kanel;0,5 tsk
+
+s:
+Slå på ugnen på varmluft 175C
+Lägg bakplåtspapper på en plåt
+Häll upp äggvita i en djup form som passar 2-3 brödskivor
+Blanda sukrin i äggvitan
+Dränk brödskivor i äggvita, lägg på plåten, pudra över kanel
+Grädda 12-15 minuter
+Servera med syltblandad youghurt och blåbär
+
+k:
+Flera på en gång: Äggvita 1,3x brödets vikt. 0,5tsk sukrin per 150g äggvita
+Vaniljpulver eller vaniljsteviadroppar i youghurten är gott som variation
+Går också bra att steka
+Också gott med hallon eller jordgubbar istället för blåbär
+Receptet är tänkt som en 550kcal frukost
+TODO: Testa att göra i våffeljärn direkt samt att mixa och göra smet av samt våffla
+
+b:
+/images/recipies/French-Toast.jpeg

@@ -2,7 +2,7 @@ i:
 Lågkalori pizzabotten;99 kcal
 Mager riven ost 12%;50 g;121 kcal
 Lammkorv; 80g; 180 kcal
-Krossade tomater;50 g;27 kcal
+Krossade tomater;100 g;27 kcal
 Champinjoner;90 g;24 kcal
 Kålrabbi;100 g;27 kcal
 Zucchini;100 g;14 kcal
@@ -11,16 +11,17 @@ s:
 Gör pizzabotten enligt separat recept, lämna ugnen på
 Blanda tomatkross med lite kryddor
 Bred ut på pizzabotten
-Lägg på grönsaker
-Lägg på protein
 Lägg på ost
+Lägg på protein och svamp
 Grädda i ugn 10-15 minuter på 200C på plåt med bakplåtspapper eller i pajform
+Stek zucchini och kålrabbi lätt under tiden
+Lägg på zucchini och kålrabbi efter gräddning eller servera separat
 
 k:
 Lämpliga kryddor: Vitlökspulver, salt, peppar, chili, basilika, oregano
 Valfritt protein a 180 kcal: Gravad/kallrökt lax, kyckling, räkor, strimlad skinka
-Valfria grönsaker a 75 kcal: Lök, pak choi, tomater, ruccola, babyspenat
+Valfria grönsaker a 75 kcal: Lök, pak choi, tomater, ruccola, babyspenat (grädda endast med lite grönsaker annars blir den svampig)
 Om du har plats för mer kalorier ta i första hand mer ost, upp till 50% mer
 
 b:
-/images/recipies/Lågkalori-pizza.jpg
+/images/recipies/Lågkalori-pizza2.jpeg
