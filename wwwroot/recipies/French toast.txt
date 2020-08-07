@@ -3,7 +3,7 @@ Bröd (pågen levain);127 g;299 kcal
 Äggvita;165 g;66 kcal
 Grekisk youghurt 0%;175 g;102 kcal
 Sylt (carbzone hallon);40 g;15 kcal
-Blåbär;125 g;66 kcal
+Färska blåbär;125 g;66 kcal
 Sukrin+;0,5 tsk
 Kanel;0,5 tsk
 
@@ -22,7 +22,7 @@ Vaniljpulver eller vaniljsteviadroppar i youghurten är gott som variation
 Går också bra att steka (~5 minuter per sida på 7/9)
 Också gott med hallon eller jordgubbar istället för blåbär
 Receptet är tänkt som en 550kcal frukost
-TODO: Testa att göra i våffeljärn direkt samt att mixa och göra smet av samt våffla
+För coop stora odlade blåbär (1 förp = 2x112.5g ta 160g youghurt istället)
 
 b:
 /images/recipies/French-Toast.jpeg
