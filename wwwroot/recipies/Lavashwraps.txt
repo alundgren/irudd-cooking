@@ -1,6 +1,6 @@
 i:
-Liba lavashbröd x 2;120 g;276 kcal
-Ingelsta kalkonbacon;100 g;140 kcal
+Liba lavashbröd x 2;120 g;276 kcal;https://liba.se/produkter/liba-lavash/
+Ingelsta kalkonbacon;100 g;140 kcal;https://www.coop.se/handla/varor/chark-palagg/charkuterier/bacon-flask/bacon-kalkon-7331044002839
 Babyspenat;40 g;10 kcal
 Zucchini;150 g;21 kcal
 Champinjoner;50 g; 13 kcal

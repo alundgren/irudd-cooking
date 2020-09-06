@@ -31,7 +31,7 @@
             <dl class="ingredients-list">
               @foreach (var i in @Model.Recipe.Ingredients)
               {
-                <dt>@i.Quantity</dt> <dd>@i.Name</dd> <dt>@Html.Raw(i.Kcal.HasValue ? $"{i.Kcal.Value}" : "&nbsp;")</dt>
+                <dt>@i.Quantity</dt> <dd>@i.Name @foreach(var link in i.Links) {<a href="@link" rel="nofollow" target="_blank"><i class="ingredient-item-link fas fa-external-link-square-alt"></i></a>}</dd> <dt>@Html.Raw(i.Kcal.HasValue ? $"{i.Kcal.Value}" : "&nbsp;")</dt>
               }
               <dt style="float:right">@Model.GetKcalSum()</dt>
             </dl>

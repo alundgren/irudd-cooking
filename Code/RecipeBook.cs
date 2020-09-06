@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,7 @@ namespace irudd_cooking.Code
             public string Name { get; set; }
             public string Quantity { get; set; }
             public int? Kcal { get; set; }
+            public List<string> Links { get; set; }
         }
 
         public static RecipeBook CreateFromRecipeFolder(IDirectoryContents folder)
@@ -83,11 +85,16 @@ namespace irudd_cooking.Code
                     var parts = line.Split(";").Select(x => x?.Trim()).Where(x => !string.IsNullOrWhiteSpace(x)).ToList();
                     var i = new Ingredient
                     {
-                        Name = parts[0]
+                        Name = parts[0],
+                        Links = new List<string>()
                     };
                     foreach (var p in parts.Skip(1))
                     {
-                        if (p.ToLowerInvariant().EndsWith("kcal"))
+                        if(p.StartsWith("http://", true, CultureInfo.InvariantCulture) || p.StartsWith("https://", true, CultureInfo.InvariantCulture)) 
+                        {
+                            i.Links.Add(p);
+                        }
+                        else if (p.ToLowerInvariant().EndsWith("kcal"))
 
                             i.Kcal = int.Parse(new string(p.Where(char.IsDigit).ToArray()));
                         else

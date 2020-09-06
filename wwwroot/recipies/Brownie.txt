@@ -1,6 +1,6 @@
 i:
-Pumpa;200 g;60 kcal
-Äggvita;46 g;19 kcal
+Pumpa;200 g;60 kcal;https://www.mathem.se/varor/pumpa/pumpa-tarningar-frysta-ekokrav-1kg-magnihill
+Äggvita;46 g;19 kcal;https://www.coop.se/handla/p/5701607579696
 Kakao;26 g;94 kcal
 Vetemjöl special;10 g;34 kcal
 Bakpulver;4 g;5 kcal
