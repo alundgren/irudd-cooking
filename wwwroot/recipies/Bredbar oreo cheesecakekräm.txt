@@ -1,7 +1,7 @@
 i:
-Eldorado färskost light 4%;200 g;208 kcal
+Eldorado färskost light 4%;200 g;208 kcal;https://www.hemkop.se/produkt/Farskost-4procent-Light-Naturell-100769045_ST
 Grekisk youghurt 0%;200 g;116 kcal
-Kasein vanilj;55 g;193 kcal
+Kasein vanilj;55 g;193 kcal;https://www.gymgrossisten.com/supreme-casein-750g/6896-1R.html
 Oreo thin 4 st;24 g;118 kcal
 Sukrin+;6 g
 

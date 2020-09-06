@@ -1,8 +1,8 @@
 i:
-Bröd (pågen levain);127 g;299 kcal
-Äggvita;165 g;66 kcal
+Bröd (pågen levain);127 g;299 kcal;https://www.coop.se/handla/varor/brod-bageri/brod/ljust/levain-7311070008159
+Äggvita;165 g;66 kcal;https://www.coop.se/handla/p/5701607579696
 Grekisk youghurt 0%;175 g;102 kcal
-Sylt (carbzone hallon);40 g;15 kcal
+Sylt (carbzone jordgubb);40 g;15 kcal;https://www.mathem.se/varor/sylt/jordgubbssylt-75--frukt-320g-low-carb
 Färska blåbär;125 g;66 kcal
 Sukrin+;0,5 tsk
 Kanel;0,5 tsk

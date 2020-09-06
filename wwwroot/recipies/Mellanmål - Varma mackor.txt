@@ -1,7 +1,7 @@
 i:
-Surdegstoast - bake my day 16 skivor;496 g;992 kcal;
-Vildsvinskorv;264 g;496 kcal
-Ost - munkens svarta 10%;160 g;368 kcal
+Surdegstoast - bake my day 16 skivor;496 g;992 kcal;https://www.mathem.se/varor/ljust-surdegsbrod/surdegstoast-skivad-680g-bake-my-day
+Vildsvinskorv;264 g;496 kcal;https://www.mathem.se/varor/grillkorv/vildsvinskorv-300g-stensakra
+Ost - munkens svarta 10%;160 g;368 kcal;https://www.mathem.se/varor/hardost/svart-10--ca-500g-wastgota-kloster
 Champinjoner;200 g;54 kcal
 Krossade tomater;200 g;54 kcal
 
@@ -21,10 +21,8 @@ Frys in
 
 k:
 8 portiner a 246 kcal
-Bröd: https://www.mathem.se/varor/ljust-surdegsbrod/surdegstoast-skivad-680g-bake-my-day
 Korv: https://www.mathem.se/varor/grillkorv/vildsvinskorv-300g-stensakra
 Alternativ till korv: 352g kalkonbacon (https://www.mathem.se/varor/bacon/kalkonbacon-100-g-ingelsta)
-Ost: 20g ~ 2 skivor (https://www.mathem.se/varor/hardost/svart-10--ca-500g-wastgota-kloster)
 Påsar: https://www.mathem.se/varor/fryspasar/fryspasar-1l-40-p-ninjaplast
 
 b:
