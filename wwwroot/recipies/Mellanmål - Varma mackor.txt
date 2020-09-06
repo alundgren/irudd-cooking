@@ -26,3 +26,6 @@ Korv: https://www.mathem.se/varor/grillkorv/vildsvinskorv-300g-stensakra
 Alternativ till korv: 352g kalkonbacon (https://www.mathem.se/varor/bacon/kalkonbacon-100-g-ingelsta)
 Ost: 20g ~ 2 skivor (https://www.mathem.se/varor/hardost/svart-10--ca-500g-wastgota-kloster)
 Påsar: https://www.mathem.se/varor/fryspasar/fryspasar-1l-40-p-ninjaplast
+
+b:
+/images/recipies/Varma-mackor.jpg
