@@ -4,9 +4,32 @@
     ViewData["Title"] = "Recept";
 }
 
-  <section id="items">
+@section nav {
+    <nav class="navbar navbar-expand-lg" style="padding-top:12px">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color:#f9f9f9;font-size:25px" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Kategori
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    @foreach(var t in Model.Book.Tags)
+                    {
+                        <a class="dropdown-item" href="#">@t</a>
+                    }
+                </div>
+            </li>
+        </ul>
+        <!-- TODO: Search
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2 recipe-search-input" type="search" placeholder="Filter">
+        </form>
+        -->
+    </nav>
+}
+
+<section id="items">
     <div class="container">
-      <div class="row">
+        <div class="row">
         @foreach(var recipe in Model.Book.Recipes)
         {
             <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
@@ -16,4 +39,4 @@
             </div>
         }
     </div>
-  </section>
+</section>

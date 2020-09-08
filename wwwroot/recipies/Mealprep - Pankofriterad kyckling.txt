@@ -26,3 +26,7 @@ Färsk kyckling eller kyckling av högre kvalitet är typiskt > 90kcal/100g (pga
 
 b:
 /images/recipies/Pankokyckling.jpeg
+
+t:
+Mat
+Mealprep

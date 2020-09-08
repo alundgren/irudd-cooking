@@ -68,7 +68,7 @@ table {
 
 #logo {
   width: 100%;
-  min-height: 250px;
+  min-height: 85px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
@@ -80,17 +80,28 @@ table {
     url("../images/kitchen-banner.jpg");
 }
 #logo img {
-  height: 100px;
+  height: 50px;
   width: auto;
-  margin-top: 24px;
+  margin-top: 12px;
 }
 #logo h1 {
   font-family: 'Quirlycues';
-  font-size: 72px;
+  font-size: 56px;
   font-weight: normal;
-  padding-top: 24px;
+  padding-top: 12px;
   color: #f9f9f9;
 }
+
+.recipe-search-input {
+    color:#f9f9f9;
+    font-size:25px;
+    background-color:transparent;
+}
+
+.recipe-search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #f9f9f9;
+    opacity: 1; /* Firefox */
+  }
 
 /*
 ** Recipes Categories

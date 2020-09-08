@@ -28,3 +28,7 @@ Brödet kan också bli två mellanmål med 90g GY och 37g önos lågkalori äppe
 
 b:
 /images/recipies/French-Toast.jpeg
+
+t:
+Frukost
+Mellanmål

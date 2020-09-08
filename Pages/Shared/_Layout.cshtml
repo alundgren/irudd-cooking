@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.Extensions.Hosting;
+@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment env;
+@{
+    //Always reload when developing to prevent css being cached but use a fixed token for prod so we can choose when to refresh
+    ViewData["CssToken"] = env.IsDevelopment() ? $"t-{new Random().Next()}" : "202009062";
+}
+<!DOCTYPE html>
 <html lang="sv">
 
 <head>
@@ -31,17 +37,23 @@
   <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css" />  
   <link rel="stylesheet" type="text/css" href="~/css/fontawsome-5.14.0.all.min.css"  />
   <link rel="stylesheet" type="text/css" href="~/css/animate.min.css" />
-  <link rel="stylesheet" type="text/css" href="~/css/styles.css?v=202009062" />
+  <link rel="stylesheet" type="text/css" href="~/css/styles.css?v=@ViewData["CssToken"]" />
 </head>
 
 <body>
   <div id="splash"></div>
 
   <section id="logo">
-    <div class="container text-center wow pulse">
-      <a href="/"> <img src="~/images/logo-white.svg" alt="logo" /></a>
-      <br />
-      <h1>Recept</h1>
+    <div class="container wow pulse">
+        <div style="float:left;padding-right:15px">
+            <a href="/"> <img src="~/images/logo-white.svg" alt="logo" /></a>
+        </div>
+        <div style="float:left">
+            <h1>Recept</h1>
+        </div>        
+        <div style="float:right">
+            @RenderSection("nav", false)
+        </div>
     </div>
   </section>
 

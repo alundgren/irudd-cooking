@@ -31,3 +31,8 @@ Salt och brödkryddor har ingen effekt på jäsning eller liknande det är bara 
 
 b:
 /images/recipies/Matbröd-portionsbröd.jpg
+
+t:
+Frukost
+Mellanmål
+Bröd

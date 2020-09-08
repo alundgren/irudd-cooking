@@ -8,5 +8,7 @@ Based on [this excellent template](https://github.com/jraleman/recipe-book-html-
 TODO:
 - Links to ingredients
 - Categories (allow multiple)
+- Search (switch to blazor wasm?)
 - Nr of portions with calorie calculation
 - Better formatting of comments
+
