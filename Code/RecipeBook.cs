@@ -12,6 +12,14 @@ namespace irudd_cooking.Code
     {
         public List<Recipe> Recipes { get; set; }
         public List<string> Tags { get;set; }
+
+        public List<Recipe> GetRecipesWithTag(string tag)
+        {
+            if (string.IsNullOrWhiteSpace(tag))
+                return Recipes;
+            return Recipes.Where(x => x.Tags.Contains(tag)).ToList();
+        }
+
         public class Recipe
         {
             public string Name { get; set; }
@@ -76,7 +84,7 @@ namespace irudd_cooking.Code
                 {
                     continue;
                 }
-                else if (line == "i:" || line == "s:" || line == "k:" || line == "n:" || line == "b:")
+                else if (line == "i:" || line == "s:" || line == "k:" || line == "n:" || line == "b:" || line == "t:")
                 {
                     currentSection = line.Substring(0, 1);
                 }
