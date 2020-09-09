@@ -20,3 +20,6 @@ k:
 2 portioner a 529 kcals
 Proteinalternativ: Kallrökt lax ~260g, Gravad lax ~250g, Varmrökt lax/makrill ~150g Halloumi. ~430g strimlad skinka
 Senapsalterntiv: Lågsockerteriyakisås ~35g, Balsamvinäger ~35g (ta lite mindre vatten)
+
+t:
+Mat

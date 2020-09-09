@@ -23,10 +23,14 @@ namespace irudd_cooking.Pages
         public RecipeBookService RecipeBookService { get; }
 
         public RecipeBook Book { get; set; }
+        public List<RecipeBook.Recipe> VisibleRecipes { get; set; }
+        public string CurrentTagName { get; set; }
 
-        public void OnGet()
+        public void OnGet(string tag)
         {
+            this.CurrentTagName = string.IsNullOrWhiteSpace(tag) ? null: tag;
             this.Book = RecipeBookService.GetRecipeBook();
+            this.VisibleRecipes = this.Book.GetRecipesWithTag(this.CurrentTagName);
         }
     }
 }

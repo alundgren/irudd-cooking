@@ -11,6 +11,15 @@ namespace irudd_cooking.Code
     public class RecipeBook
     {
         public List<Recipe> Recipes { get; set; }
+        public List<string> Tags { get;set; }
+
+        public List<Recipe> GetRecipesWithTag(string tag)
+        {
+            if (string.IsNullOrWhiteSpace(tag))
+                return Recipes;
+            return Recipes.Where(x => x.Tags.Contains(tag)).ToList();
+        }
+
         public class Recipe
         {
             public string Name { get; set; }
@@ -18,6 +27,7 @@ namespace irudd_cooking.Code
             public List<string> Steps { get; set; }
             public List<string> Comments { get; set; }
             public List<Ingredient> Ingredients { get; set; }
+            public List<string> Tags { get;set; }
         }
 
         public class Ingredient
@@ -50,6 +60,7 @@ namespace irudd_cooking.Code
                     }
                 }
             }
+            b.Tags = b.Recipes.SelectMany(x => x.Tags).Distinct().OrderBy(x => x).ToList();
             return b;
         }
 
@@ -60,7 +71,8 @@ namespace irudd_cooking.Code
                 Name = name,
                 Steps = new List<string>(),
                 Ingredients = new List<Ingredient>(),
-                Comments = new List<string>()
+                Comments = new List<string>(),
+                Tags = new List<string>()
             };
 
             string currentSection = null;
@@ -72,7 +84,7 @@ namespace irudd_cooking.Code
                 {
                     continue;
                 }
-                else if (line == "i:" || line == "s:" || line == "k:" || line == "n:" || line == "b:")
+                else if (line == "i:" || line == "s:" || line == "k:" || line == "n:" || line == "b:" || line == "t:")
                 {
                     currentSection = line.Substring(0, 1);
                 }
@@ -114,8 +126,11 @@ namespace irudd_cooking.Code
                 {
                     r.MainImageUrl = line;
                 }
+                else if(currentSection == "t") 
+                {
+                    r.Tags.Add(line.ToUpperInvariant().Substring(0, 1) + line.ToLowerInvariant().Substring(1));
+                }
             }
-
 
             return r;
         }
