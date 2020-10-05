@@ -25,3 +25,6 @@ Vaniljsås: 10g kasein-vanilj (~35kcal) + 60g vatten, vispa till fluff
 
 b:
 /images/recipies/Äppelröra-i-ugn.jpeg
+
+t:
+Snack

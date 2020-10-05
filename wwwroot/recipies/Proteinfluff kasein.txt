@@ -1,5 +1,5 @@
 i:
-kasein-protein;25 g;88 kcal
+kasein-protein;25 g;88 kcal;https://www.gymgrossisten.com/supreme-casein-750g/6896-1R.html
 vatten;55 g
 krossad is;70 g
 frusna hallon;50 g;20 kcal
@@ -20,3 +20,6 @@ Blåbär fungerar också
 Whey fungerar inte på det här sättet
 Har du bråttom så ta bara 130g vatten och skippa is. Det blir mer som fluff och mindre som glass
 Lyxvariant av chocolate milk: Ersätt 5g av kaseinet med ekströms chokladpuddingpulver (lägger till ~10kcal)
+
+t:
+Snack

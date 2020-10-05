@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,15 @@ namespace irudd_cooking.Code
     public class RecipeBook
     {
         public List<Recipe> Recipes { get; set; }
+        public List<string> Tags { get;set; }
+
+        public List<Recipe> GetRecipesWithTag(string tag)
+        {
+            if (string.IsNullOrWhiteSpace(tag))
+                return Recipes;
+            return Recipes.Where(x => x.Tags.Contains(tag)).ToList();
+        }
+
         public class Recipe
         {
             public string Name { get; set; }
@@ -17,6 +27,7 @@ namespace irudd_cooking.Code
             public List<string> Steps { get; set; }
             public List<string> Comments { get; set; }
             public List<Ingredient> Ingredients { get; set; }
+            public List<string> Tags { get;set; }
         }
 
         public class Ingredient
@@ -24,6 +35,7 @@ namespace irudd_cooking.Code
             public string Name { get; set; }
             public string Quantity { get; set; }
             public int? Kcal { get; set; }
+            public List<string> Links { get; set; }
         }
 
         public static RecipeBook CreateFromRecipeFolder(IDirectoryContents folder)
@@ -48,6 +60,7 @@ namespace irudd_cooking.Code
                     }
                 }
             }
+            b.Tags = b.Recipes.SelectMany(x => x.Tags).Distinct().OrderBy(x => x).ToList();
             return b;
         }
 
@@ -58,7 +71,8 @@ namespace irudd_cooking.Code
                 Name = name,
                 Steps = new List<string>(),
                 Ingredients = new List<Ingredient>(),
-                Comments = new List<string>()
+                Comments = new List<string>(),
+                Tags = new List<string>()
             };
 
             string currentSection = null;
@@ -70,7 +84,7 @@ namespace irudd_cooking.Code
                 {
                     continue;
                 }
-                else if (line == "i:" || line == "s:" || line == "k:" || line == "n:" || line == "b:")
+                else if (line == "i:" || line == "s:" || line == "k:" || line == "n:" || line == "b:" || line == "t:")
                 {
                     currentSection = line.Substring(0, 1);
                 }
@@ -83,11 +97,16 @@ namespace irudd_cooking.Code
                     var parts = line.Split(";").Select(x => x?.Trim()).Where(x => !string.IsNullOrWhiteSpace(x)).ToList();
                     var i = new Ingredient
                     {
-                        Name = parts[0]
+                        Name = parts[0],
+                        Links = new List<string>()
                     };
                     foreach (var p in parts.Skip(1))
                     {
-                        if (p.ToLowerInvariant().EndsWith("kcal"))
+                        if(p.StartsWith("http://", true, CultureInfo.InvariantCulture) || p.StartsWith("https://", true, CultureInfo.InvariantCulture)) 
+                        {
+                            i.Links.Add(p);
+                        }
+                        else if (p.ToLowerInvariant().EndsWith("kcal"))
 
                             i.Kcal = int.Parse(new string(p.Where(char.IsDigit).ToArray()));
                         else
@@ -107,8 +126,11 @@ namespace irudd_cooking.Code
                 {
                     r.MainImageUrl = line;
                 }
+                else if(currentSection == "t") 
+                {
+                    r.Tags.Add(line.ToUpperInvariant().Substring(0, 1) + line.ToLowerInvariant().Substring(1));
+                }
             }
-
 
             return r;
         }

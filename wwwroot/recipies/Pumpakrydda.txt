@@ -11,3 +11,6 @@ Blanda ihop alla ingredienser
 k:
 Gott för bakning med pumpapuré
 Typisk dosering 3g till 150g pumpapuré
+
+t:
+Bas

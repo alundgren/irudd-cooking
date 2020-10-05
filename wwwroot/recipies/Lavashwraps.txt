@@ -1,6 +1,6 @@
 i:
-Liba lavashbröd x 2;120 g;276 kcal
-Ingelsta kalkonbacon;100 g;140 kcal
+Liba lavashbröd x 2;120 g;276 kcal;https://liba.se/produkter/liba-lavash/
+Ingelsta kalkonbacon;100 g;140 kcal;https://www.coop.se/handla/varor/chark-palagg/charkuterier/bacon-flask/bacon-kalkon-7331044002839
 Babyspenat;40 g;10 kcal
 Zucchini;150 g;21 kcal
 Champinjoner;50 g; 13 kcal
@@ -20,3 +20,7 @@ Callowfit: Fancy garlic eller honey mustard
 Bröden varierar vilt i vikt så väg varje gång
 Bröden är ganska sköra och svåra att stänga. Omslut i en https://www.mathem.se/varor/zip-pasar/forslutningsbara-pasar-3-5l-20-p-ninjaplast med gummisnoddar underlättar.
 Antingen ett mål a 470 kcal eller två snacks a 235kcal
+
+t:
+Mat
+Mellanmål
