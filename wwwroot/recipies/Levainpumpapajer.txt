@@ -24,11 +24,11 @@ Pensla ovansidan med resterande äggvita
 Ställ in mitt i ugnen i 15 minuter
 
 k:
-Ger 6 pajer med 168 kcal styck
 Sukrin kan ersättas med 2 droppers flytande stevia
 Baserat på 235kcal per 100g pågen levainbröd (https://pagen.se/sortiment/levain/)
 Se separat recept för toppingen
 Se separat recept för pumpakrydda
 
-t:
-Snack
+m:
+taggar=Snack
+portioner=6

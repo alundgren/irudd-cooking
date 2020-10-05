@@ -33,7 +33,7 @@
               {
                 <dt>@i.Quantity</dt> <dd>@i.Name @foreach(var link in i.Links) {<a href="@link" rel="nofollow" target="_blank"><i class="ingredient-item-link fas fa-external-link-square-alt"></i></a>}</dd> <dt>@Html.Raw(i.Kcal.HasValue ? $"{i.Kcal.Value}" : "&nbsp;")</dt>
               }
-              <dt style="float:right">@Model.GetKcalSum()</dt>
+              <dt style="float:right">@Model.GetKcalSum()@if(@Model.Recipe.NrOfPortions.HasValue){@Html.Raw("&nbsp;")<span style="font-size: smaller;">(@Model.Recipe.NrOfPortions x @Model.GetKcalPerPortion())</span>}</dt>
             </dl>
           </div>
         </div>

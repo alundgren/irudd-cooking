@@ -1,16 +1,16 @@
 i:
-Frusna jordgubbar; 100 g;30kcal
-Vatten;40 g
-Äggvita;90 g;41 kcal
+Frusna jordgubbar; 200 g;60kcal
+Vatten;80 g
+Äggvita;180 g;82 kcal
 Äppemos - osötat;100 g;50 kcal
-Grekisk youghurt;90 g;117 kcal
-Whey 80 choklad;65 g;247 kcal
-Havremjöl;90 g; 342 kcal
-Kokosmjöl;30 g; 96 kcal
-Sukrin;25 g
-Bakpulver;1/2 msk;10 kcal
-Salt;1 krm
-Xantangummi;2 krm;5 kcal
+Grekisk youghurt 0%;180 g;105 kcal
+Whey/Kasein 70/30 mix vanilj;130 g;487 kcal;https://pescience.com/products/select-protein?variant=185086115866
+Havremjöl;180 g; 684 kcal
+Kokosmjöl;60 g; 192 kcal
+Sukrin;50 g
+Bakpulver;1 msk;20 kcal
+Salt;2 krm
+Xantangummi;4 krm;10 kcal
 
 s:
 Slå på ugnen på 175 grader
@@ -18,19 +18,17 @@ Tina jordgubbarna till hälften och stavmixa tillsammans med vattnet
 Blanda i äggvita, äppelmos, youghurt
 Blanda i alla torra ingredienser
 Vispa någon minut
-Häll upp i 29x12cm limpform med bakplåtspapper i
-Ställ in i ugnen ungefär 35-45 minuter. Den ska vara precis så att du kan peta på den utan att få med dig kaka.
+Häll upp i 33x12cm limpform med bakplåtspapper i
+Ställ in i ugnen ungefär 45-55 minuter. Innetemp 90C i mitten är att föredra men max 98C på kanterna annars blir den bränd.
 
 k:
-5 portioner
-190 kcal / portion
 16 g protein / portion
 Kan med fördel garneras med t ex strössel
+God att servera med t ex callowfit salted caramel sås
 Alla sorters whey-protein fungerar men kasein blir inte bra
 Blåbär eller hallon fungerar lika bra
 Xantangummi är valfritt. De blir lite fastare
-Längre tillagningstid ger en fastare kaka men de blir torrare
 
-t:
-Mellanmål
-Mealprep
+m:
+taggar=Mellanmål
+portioner=10

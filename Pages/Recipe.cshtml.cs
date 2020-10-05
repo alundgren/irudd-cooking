@@ -40,6 +40,16 @@ namespace irudd_cooking.Pages
             return any ? sum : new int?(); //Dont print 0 when the writer hasnt given any kcal value at all
         }
 
+        public int? GetKcalPerPortion()
+        {
+            if ((Recipe?.NrOfPortions ?? 0) == 0)
+                return null;
+            var kcals = GetKcalSum();
+            if (kcals == null)
+                return null;
+            return (int)Math.Round(((decimal)kcals) / ((decimal)Recipe.NrOfPortions.Value));
+        }
+
         public IActionResult OnGet(string name)
         {
             this.Recipe = this.recipeBookService.GetRecipeBook().Recipes.FirstOrDefault(x => x.Name == name);

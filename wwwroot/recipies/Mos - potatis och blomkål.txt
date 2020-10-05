@@ -1,0 +1,29 @@
+i:
+Potatis;1000 g;790 kcal
+Blomkål;1000 g;240 kcal
+Grekisk youghurt 0%;250 g;145 kcal
+Xantangummi;9 g;16 kcal
+Bakpulver;6 g;8 kcal
+Vitlökspulver;2 msk
+Salt;1 msk
+Svartpeppar;1 tsk
+Chili;2 krm
+Timjan;1 tsk
+Kålrabbi;450 g;122 kcal
+
+s:
+Koka potatis och blomkål
+Mixa tillsammans till puré
+Blanda i övriga ingredienser
+Vispa några minuter
+
+
+k:
+Kombineras med valfritt protein (t ex pankokyckling) a 200 kcal för en måltid.
+Kålrabbin kan ersättas med vilken grönsak som helst, 25 kcal per portion. T ex 150 zucchini eller 130g tomat per portion.
+Snabbare att göra men dyrare: https://www.mathem.se/varor/blomkalspure/blomkalspure-ekokrav-fryst-1kg-magnihill
+
+m:
+taggar=Mat,Mealprep
+portioner=5
+

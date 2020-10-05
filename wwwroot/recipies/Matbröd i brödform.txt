@@ -22,7 +22,6 @@ Baka 32 minuter
 Ta ut och låta kalla 20 minuter innan brödet skärs upp
 
 k:
-8 portioner a 170kcal
 68% vätskegrad
 Vatten ~37 grader
 För vikinstruktioner se https://www.youtube.com/watch?v=6zW9LX9ALSI&list=PLarlVZiCjK5zXbFBBPUO1obmQLuNJwRa6&index=18&t=275s
@@ -32,7 +31,6 @@ Kokande vatten för att få lite ågna i ugnen
 Skåror i brödet för att undvika att det spricker okontrollerat och för utseende
 Salt och brödkryddor har ingen effekt på jäsning eller liknande det är bara för smak
 
-t:
-Frukost
-Mellanmål
-Bröd
+m:
+taggar=Frukost,Mellanmål,Bröd
+portioner=8

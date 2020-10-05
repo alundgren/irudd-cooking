@@ -21,7 +21,6 @@ Baka 11 minuter
 Ta ut och låta kalla 20 minuter innan brödet skärs upp
 
 k:
-16 portioner a 170kcal
 Vid torrjäst, ta ett paket (14g)
 68% vätskegrad
 Vatten ~37 grader
@@ -29,10 +28,7 @@ Kokande vatten för att få lite ågna i ugnen
 Skåror i brödet för att undvika att det spricker okontrollerat och för utseende
 Salt och brödkryddor har ingen effekt på jäsning eller liknande det är bara för smak
 
-b:
-/images/recipies/Matbröd-portionsbröd.jpg
-
-t:
-Frukost
-Mellanmål
-Bröd
+m:
+bild=/images/recipies/Matbröd-portionsbröd.jpg
+taggar=Frukost,Mellanmål,Bröd
+portioner=16

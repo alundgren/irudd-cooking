@@ -15,5 +15,6 @@ Lämplig dosering 16 portioner på 28g styck a 40 kcal
 Ta 1-2 portioner och bred på eller doppa bröd i
 Håller åtminstone en vecka i kylskåp
 
-t:
-Snack
+m:
+taggar=Snack
+portioner=16

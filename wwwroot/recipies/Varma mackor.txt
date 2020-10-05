@@ -1,0 +1,30 @@
+i:
+Surdegstoast - bake my day 16 skivor;496 g;992 kcal;https://www.mathem.se/varor/ljust-surdegsbrod/surdegstoast-skivad-680g-bake-my-day
+Vildsvinskorv;264 g;496 kcal;https://www.mathem.se/varor/grillkorv/vildsvinskorv-300g-stensakra
+Ost - munkens svarta 10%;160 g;368 kcal;https://www.mathem.se/varor/hardost/svart-10--ca-500g-wastgota-kloster
+Champinjoner;200 g;54 kcal
+Krossade tomater;200 g;54 kcal
+
+s:
+Slå på ugnen på 225C (200C varmluft)
+Skiva korven tunt och stek lätt
+Täck en plåt med bakplåtspapper och lägg upp 8 staplar om 2 brödskivor var
+Lägg en ostskiva på varje brödskiva
+Hacka svamp och blanda svamp, krossade tomater, salt, peppar, chili, vitlök, oregano i en bunke
+Dela upp röran på brödskivorna
+Dela upp korven på brödskivorna
+Lägg en ostskiva på varje brödskiva
+Lägg den understa brödsivan ovanpå i varje par och tryck till
+Ställ in i ugnen 8 minuter
+Låt kallna, lägg i små tätsittande plastpåsar och förslut med klämma
+Frys in
+
+k:
+Korv: https://www.mathem.se/varor/grillkorv/vildsvinskorv-300g-stensakra
+Alternativ till korv: 352g kalkonbacon (https://www.mathem.se/varor/bacon/kalkonbacon-100-g-ingelsta)
+Påsar: https://www.mathem.se/varor/fryspasar/fryspasar-1l-40-p-ninjaplast
+
+m:
+bild=/images/recipies/Varma-mackor.jpg
+taggar=Mellanmål,Mealprep
+portioner=8

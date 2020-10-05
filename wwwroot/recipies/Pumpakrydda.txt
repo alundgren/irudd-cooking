@@ -12,5 +12,5 @@ k:
 Gott för bakning med pumpapuré
 Typisk dosering 3g till 150g pumpapuré
 
-t:
-Bas
+m:
+taggar=Bas

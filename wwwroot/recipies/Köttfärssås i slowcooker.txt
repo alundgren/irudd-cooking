@@ -20,12 +20,12 @@ Blanda ned alla ingredienser i en slowcooker och rör om ordentligt
 Kör 7h på låg
 
 k:
-5 x 300 kcal
 Koka 342g linspasta till för 5x540 kcal matlådor
 Kycklingfärs istället ger -300 kcal. Kan kompenseras med t ex ett paket bönor
 134g potatis kan ersätta palsternackan
 Berbere är en chillkryddblandning
 Det blir bättre om köttfärsen/löken steks innan men bra oavsett
 
-t:
-Mat
+m:
+taggar=Mat
+portioner=5

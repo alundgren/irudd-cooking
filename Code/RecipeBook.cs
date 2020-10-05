@@ -11,7 +11,7 @@ namespace irudd_cooking.Code
     public class RecipeBook
     {
         public List<Recipe> Recipes { get; set; }
-        public List<string> Tags { get;set; }
+        public List<string> Tags { get; set; }
 
         public List<Recipe> GetRecipesWithTag(string tag)
         {
@@ -27,7 +27,8 @@ namespace irudd_cooking.Code
             public List<string> Steps { get; set; }
             public List<string> Comments { get; set; }
             public List<Ingredient> Ingredients { get; set; }
-            public List<string> Tags { get;set; }
+            public List<string> Tags { get; set; }
+            public int? NrOfPortions { get; set; }
         }
 
         public class Ingredient
@@ -84,13 +85,15 @@ namespace irudd_cooking.Code
                 {
                     continue;
                 }
-                else if (line == "i:" || line == "s:" || line == "k:" || line == "n:" || line == "b:" || line == "t:")
+                else if (line == "b:" || line == "t:" || line == "n:")
+                    throw new Exception(name);
+                else if (line == "i:" || line == "s:" || line == "k:" || line == "m:")
                 {
                     currentSection = line.Substring(0, 1);
                 }
                 else if (currentSection == "n")
                 {
-                    r.Name = line;
+
                 }
                 else if (currentSection == "i")
                 {
@@ -102,7 +105,7 @@ namespace irudd_cooking.Code
                     };
                     foreach (var p in parts.Skip(1))
                     {
-                        if(p.StartsWith("http://", true, CultureInfo.InvariantCulture) || p.StartsWith("https://", true, CultureInfo.InvariantCulture)) 
+                        if (p.StartsWith("http://", true, CultureInfo.InvariantCulture) || p.StartsWith("https://", true, CultureInfo.InvariantCulture))
                         {
                             i.Links.Add(p);
                         }
@@ -122,13 +125,31 @@ namespace irudd_cooking.Code
                 {
                     r.Comments.Add(line);
                 }
-                else if (currentSection == "b")
+                else if (currentSection == "m")
                 {
-                    r.MainImageUrl = line;
-                }
-                else if(currentSection == "t") 
-                {
-                    r.Tags.Add(line.ToUpperInvariant().Substring(0, 1) + line.ToLowerInvariant().Substring(1));
+                    //Meta
+                    var i = line.IndexOf('=');
+                    if (i < 0)
+                        continue;
+
+                    var propertyName = line.Substring(0, i).Trim().ToLowerInvariant();
+                    var propertyValue = line.Substring(i + 1).Trim();
+                    if (propertyName == "bild")
+                    {
+                        r.MainImageUrl = propertyValue;
+                    }
+                    else if (propertyName == "taggar" || propertyName == "tags")
+                    {
+                        r.Tags.AddRange(propertyValue.Split(',').Select(x => x.Trim()).Where(x => x.Length > 0));
+                    }
+                    else if (propertyName == "portioner")
+                    {
+                        r.NrOfPortions = int.Parse(propertyValue);
+                    }
+                    else if (propertyName == "namn")
+                    {
+                        r.Name = propertyValue;
+                    }
                 }
             }
 

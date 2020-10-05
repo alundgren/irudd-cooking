@@ -26,9 +26,6 @@ Receptet är tänkt som en 550kcal frukost
 För coop stora odlade blåbär (1 förp = 2x112.5g ta 50g sylt och 185g GY istället)
 Brödet kan också bli två mellanmål med 90g GY och 37g önos lågkalori äppelmos a 250kcal styck
 
-b:
-/images/recipies/French-Toast.jpeg
-
-t:
-Frukost
-Mellanmål
+m:
+bild=/images/recipies/French-Toast.jpeg
+taggar=Frukost,Mellanmål

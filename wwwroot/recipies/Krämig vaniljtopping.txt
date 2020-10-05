@@ -15,6 +15,5 @@ k:
 Kan behöva upp till 10g mer vatten
 Som topping till 10x10 cms brödskivor räcker en sats till 6 st
 
-t:
-Snack
-Topping
+m:
+taggar=Snack,Topping

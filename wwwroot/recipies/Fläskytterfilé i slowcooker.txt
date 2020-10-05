@@ -1,5 +1,5 @@
 i:
-Fläskytterfilé;700 g;770 kcal
+Fläskytterfilé;600 g;660 kcal
 Hönsfond (ej utspädd);1 tsk;5 kcal
 Soja mindre salt;2 msk;30 kcal
 Worcestershiresås;1 msk;13 kcal
@@ -16,9 +16,8 @@ Lägg i filén
 Kör ungefär 1.5h på hög (innetemperatur 65-70C)
 
 k:
-Lämpligen 4 portioner a 207 kcal
 Spara spadet och ha som sås
 
-t:
-Mat
-
+m:
+taggar=Mat,Mealprep
+portioner=4

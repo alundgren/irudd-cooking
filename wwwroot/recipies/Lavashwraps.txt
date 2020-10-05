@@ -21,6 +21,5 @@ Bröden varierar vilt i vikt så väg varje gång
 Bröden är ganska sköra och svåra att stänga. Omslut i en https://www.mathem.se/varor/zip-pasar/forslutningsbara-pasar-3-5l-20-p-ninjaplast med gummisnoddar underlättar.
 Antingen ett mål a 470 kcal eller två snacks a 235kcal
 
-t:
-Mat
-Mellanmål
+m:
+taggar=Mat,Mellanmål

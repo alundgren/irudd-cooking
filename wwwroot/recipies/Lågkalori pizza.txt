@@ -23,8 +23,7 @@ Valfritt protein a 180 kcal: Gravad/kallrökt lax, kyckling, räkor, strimlad sk
 Valfria grönsaker a 75 kcal: Lök, pak choi, tomater, ruccola, babyspenat (grädda endast med lite grönsaker annars blir den svampig)
 Om du har plats för mer kalorier ta i första hand mer ost, upp till 50% mer
 
-b:
-/images/recipies/Lågkalori-pizza2.jpeg
 
-t:
-Mat
+m:
+bild=/images/recipies/Lågkalori-pizza2.jpeg
+taggar=Mat

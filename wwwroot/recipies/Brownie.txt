@@ -15,11 +15,9 @@ Rör till en slät kräm
 Häll upp i formen och ställ in i ugnen 40 minuter
 
 k:
-Obs, volymrecept. Inte speciellt god i sig. Ät täckt med bredbar oreo cheesecake och/eller proteinfluff.
+Ät täckt med bredbar oreo cheesecake och/eller proteinfluff.
 Sötningsmedel: 5-8 droppar stevia fungerar lika bra
 
-b:
-/images/recipies/Brownie.jpg
-
-t:
-Snack
+m:
+bild=/images/recipies/Brownie.jpg
+taggar=Snack

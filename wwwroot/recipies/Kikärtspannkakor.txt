@@ -15,10 +15,9 @@ Vispa någon minut med elvisp
 Stek ~1 dl smet cirka 2 minuter per sida
 
 k:
-9 små pannkakor, 100 kcal / st
 Kanel också gott som krydda både med och utan kardemumma
 När det slutar formas bubblor är det dags att vända vid stekning
 
-t:
-Frukost
-Mellanmål
+m:
+taggar=Frukost,Mellanmål
+portioner=9
