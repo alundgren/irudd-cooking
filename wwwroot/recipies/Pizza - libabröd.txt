@@ -21,3 +21,4 @@ Har du kalorier över så är fetare ost godare alternativt byt till en kraftig 
 
 m:
 taggar=Mat
+bild=/images/recipies/Pizza-libabröd.jpg
